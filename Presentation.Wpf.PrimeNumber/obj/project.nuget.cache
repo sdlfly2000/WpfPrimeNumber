@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gZ4FhH9v4J63Phq63K9qPBnp6isA6F8Y1Q+3udTe1pGIQdN7R293DursHlw7+h+ms1mbMQzK/MTx2yketJSkaA==",
+  "success": true,
+  "projectFilePath": "E:\\Projects\\VS_Projects\\WpfPrimeNumber\\Presentation.Wpf.PrimeNumber\\Presentation.Wpf.PrimeNumber.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.9\\microsoft.extensions.dependencyinjection.3.1.9.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512"
+  ],
+  "logs": []
+}

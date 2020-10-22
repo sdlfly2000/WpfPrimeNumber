@@ -1,0 +1,22 @@
+﻿<Window x:Class="Presentation.Wpf.PrimeNumber.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation.Wpf.PrimeNumber.ViewModel"
+        mc:Ignorable="d"
+        Title="Prime Number" Height="400" Width="400">
+    <Window.DataContext>
+        <local:NumberViewModel/>
+    </Window.DataContext>
+    <StackPanel Orientation="Vertical" VerticalAlignment="Top" Height="400">
+        <TextBox Text="{Binding Value}" TextWrapping="Wrap" Width="200" Height="17" Margin="10"/>
+        <TextBlock Text="{Binding ErrorMessage}" Foreground="Red" HorizontalAlignment="Center" Width="200"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <Button Content="Clear" Height="20" Width="100" Click="BtnClear_Click"/>
+            <Button Content="Check" Height="20" Width="100" Click="BtnCheck_Click" />
+        </StackPanel>
+        <TextBlock Text="{Binding MessagePrimeNumber}" Width="200" Foreground="Blue" Margin="10" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="{Binding DebugMessage}" Width="200" Height="150"  Foreground="DarkBlue" Margin="10" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </StackPanel>
+</Window>
